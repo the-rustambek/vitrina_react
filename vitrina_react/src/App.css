@@ -1,0 +1,9 @@
+.app{
+    width: 600px;
+    height: 500px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,9 +1,9 @@
 
-const Main = () =>{
+const Main = ({toggle}) =>{
      return(
          <>
          <p>Hello context</p>
-         <button className="success">
+         <button onClick={toggle} className="success">
             Show alert
          </button>
          </>
